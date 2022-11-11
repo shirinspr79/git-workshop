@@ -41,6 +41,7 @@ export default function Main() {
           </Card.Body> 
           </Card>
           </Col>
+                 
         </Row>  
         </Container>
       );
