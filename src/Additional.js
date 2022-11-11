@@ -1,6 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Alert from 'react-bootstrap/Alert';
+import Accordion from 'react-bootstrap/Accordion';
 
 export default function Additional() {
   return (
@@ -11,9 +12,18 @@ export default function Additional() {
       </p>
       <hr />
       <p className="mb-0">
-        Whenever you need to, be sure to use margin utilities to keep things
-        nice and tidy.
+        Whenever need to: 
       </p>
-    </Alert>
+
+<Accordion>
+<Accordion.Item eventKey="0">
+  <Accordion.Header>our suggestion</Accordion.Header>
+  <Accordion.Body>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  </Accordion.Body>
+</Accordion.Item>
+</Accordion>
+</Alert>
   );
+
 }
